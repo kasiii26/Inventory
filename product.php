@@ -84,10 +84,11 @@ class Products {
 }
 
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "inventory1";
+    $servername = "localhost";
+    $dbusername = "dfoiwidm_inventory";
+    $dbpassword = "inventory123";
+    $dbname = "dfoiwidm_inventory";
+
 
 $productM = new Products($host, $username, $password, $database);
 

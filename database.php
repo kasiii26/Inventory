@@ -1,8 +1,8 @@
 <?php
     $servername = "localhost";
-    $dbusername = "root";
-    $dbpassword = "";
-    $dbname = "inventory1";
+    $dbusername = "dfoiwidm_inventory";
+    $dbpassword = "inventory123";
+    $dbname = "dfoiwidm_inventory";
 
     $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 

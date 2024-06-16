@@ -1,14 +1,15 @@
 <?php
 include "user.php";
 
-// Instantiate the Users class
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "inventory1";
+
+    $servername = "localhost";
+    $dbusername = "dfoiwidm_inventory";
+    $dbpassword = "inventory123";
+    $dbname = "dfoiwidm_inventory";
+
 $user = new Users($host, $username, $password, $database);
 
-// Handle POST request to update user
+
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update_user'])) {
     $userId = $_POST['userId'];
     $newFirstName = $_POST['newFirstName'];
@@ -27,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update_user'])) {
     }
 }
 
-// Handle GET request to edit user
+
 if (isset($_GET['edit_user'])) {
     $userId = $_GET['edit_user'];
     $userDetails = $user->getUserDetails($userId);
@@ -78,7 +79,7 @@ if (isset($_GET['delete_user'])) {
         </thead>
         <tbody>
             <?php
-                $result = $user->getAllUsers(); // Use the appropriate method to get all users
+                $result = $user->getAllUsers(); 
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
             ?>

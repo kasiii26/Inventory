@@ -106,10 +106,11 @@ class Users {
 
 
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "inventory1";
+    $servername = "localhost";
+    $dbusername = "dfoiwidm_inventory";
+    $dbpassword = "inventory123";
+    $dbname = "dfoiwidm_inventory";
+
 
 $user = new Users($host, $username, $password, $database);
 ?>
