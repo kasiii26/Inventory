@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 1px;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+nav{
+    background-color: #03AED2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.con1{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+.log-in{
+    display: flex;
+    margin-left: 600px;
+}
+.svg{
+    display: flex;
+    margin-left: 50px;
+}
+.svg input{
+    border: transparent;
+    border-radius: 10px;
+    width: 200px;
+}
+aside{
+    display: grid;
+    grid-template-columns: 200px, 1vh;
+    color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 550px;
+}
+.aside-1 {
+    background-color: #d7d2f7;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+    color: black;
+    border-radius: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: lighter;
+    justify-content: space-between;
+}
+.types {
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    align-items: center;
+    transition: 0.7s;
+    gap: 10px;
+  }
+  .svg2{
+    margin-top: 40px;
+    margin-left: 29px;
+  }
+.add{
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    height: 540px;
+    width: 1fr;
+    background-color: #a0deff;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.add3 h4{
+    margin-left: -250px;
+    font-size: 40px;
+}
+.add2 h3{
+    margin-top: 80px;
+  margin-left: 180px;
+}
+.add2 input{
+    border: transparent;
+    border-radius: 5px;
+    width: 240px;
+    height: 28px;
+    margin-top: 8px;
+    margin-left: 350px;
+}
+.add2 h5{
+    font-size: 18px;
+    margin-left: 365px;
+}
+.add2 button{
+    margin-left: 380px;
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: #03AED2;
+    color: white;
+    border-radius: 20px;
+    outline: transparent;
+}
+.adding select{
+    margin-left: 400px;
+}
+  .button button{
+    font-size: 20px;
+  }
+ 
+  
+
+

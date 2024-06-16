@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 2px;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body{
+    background-color: darkgrey;
+}
+nav{
+    background-color: #03AED2;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.con1{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+.log-in{
+    display: flex;
+    margin-left: 600px;
+}
+.svg{
+    display: flex;
+    margin-left: 50px;
+}
+.svg input{
+    border: transparent;
+    border-radius: 10px;
+    width: 200px;
+}
+.main{
+display: grid;
+gap: 1fr, 1fr;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    width: 1fr;
+    height: 380px;
+    margin: 100px;
+    background-color: #A0DEFF;
+    border-radius: 10px;
+
+}
+.main3 img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.main5 h3{
+    margin-left: 210px;
+    font-size: 30px;
+}
+
+.main6 input{
+    border: transparent;
+    border-radius: 10px;
+    width: 280px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.main7 button{
+    margin-left: 136px;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: #03AED2;
+    color: white;
+    border-radius: 20px;
+    outline: transparent;
+    margin-top: 30px;
+    border: none;
+}
+.main7 button:hover{
+background-color: black;
+}
+.main7 h4{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.main7 a{
+    text-decoration: none;
+}
+.main7 a:hover{
+    background-color: darkgrey;
+    border-radius: 4px;
+}
